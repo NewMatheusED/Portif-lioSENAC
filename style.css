@@ -96,6 +96,29 @@ html, body {
     margin-right: 10px;
 }
 
+.about {
+    padding-top: 270px;
+}
+
+.about .container {
+    max-width: 1200px;
+    width: 100%;
+}
+
+.about h1 {
+    color: #222222;
+    font-family: "Heebo", sans-serif;
+    font-size: 36px;
+    margin-bottom: 18px;
+    text-transform: uppercase;
+}
+
+.about p {
+    font-family: "Roboto", sans-serif;
+    margin-bottom: 40px;
+    color: #777777;
+}
+
 @media screen and (max-width: 1180px) {
     .profile-box .img {
         width: 100%;
@@ -114,10 +137,33 @@ html, body {
     .profile-box {
         display: block;
     }
+
+    .description {
+        max-width: 550px;
+    }
+
+    .about {
+        padding: 650px 2% 650px 2%;
+
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .about {
+        padding: 600px 2% 600px 2%;
+    }
 }
 
 @media screen and (max-width: 480px) {
     .description h1 {
+        font-size: 40px;
+    }
+
+    .about {
+        padding: 500px 2% 500px 2%;
+    }
+
+    .about h1 {
         font-size: 40px;
     }
 }
