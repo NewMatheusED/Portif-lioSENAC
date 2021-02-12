@@ -96,6 +96,29 @@ html, body {
     margin-right: 10px;
 }
 
+.social {
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    max-width: 250px;
+}
+
+.social-single {
+    border-radius: 12px;
+    height: 40px;
+    width: 40px;
+}
+
+.social-single img {
+    width: 40px;
+    height: 40px;
+    margin: 0 auto;
+}
+
+.social-single:hover {
+    background-image: linear-gradient(to right,#776EFF, #88F3FF);
+}
+
 .about {
     padding-top: 270px;
 }
