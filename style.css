@@ -9,6 +9,12 @@ html, body {
     height: 100%;
 }
 
+:root {
+    --text-color: #222222;
+    --p-color: #777777;
+    --roboto: "Roboto", sans-serif;
+}
+
 .container {
     width: 100%;
     max-width: 1280px;
@@ -49,12 +55,12 @@ html, body {
 
 .description h6 {
     font-size: 14px;
-    font-family: "Roboto", sans-serif;
+    font-family: var(--roboto);
     text-transform: uppercase;
     letter-spacing: 2.1px;
     font-weight: normal;
     margin-bottom: 20px;
-    color: #222222;
+    color: var(--text-color);
 
 }
 
@@ -62,22 +68,22 @@ html, body {
     font-size: 48px;
     text-transform: uppercase;
     margin-bottom: 15px;
-    color: #222222;
+    color: var(--text-color);
 }
 
 .description h3 {
     font-size: 16px;
     font-weight: 600;
-    font-family: "Roboto", sans-serif;
+    font-family: var(--roboto);
     text-transform: uppercase;
     margin-bottom: 20px;
-    color: #222222;
+    color: var(--text-color);
 }
 
 .description p {
-    font-family: "Roboto", sans-serif;
+    font-family: var(--roboto);
     max-width: 540px;
-    color: #777777;
+    color: var(--p-color);
     margin-bottom: 40px;
 }
 
@@ -129,7 +135,7 @@ html, body {
 }
 
 .about h1 {
-    color: #222222;
+    color: var(--text-color);
     font-family: "Heebo", sans-serif;
     font-size: 36px;
     margin-bottom: 18px;
@@ -137,9 +143,9 @@ html, body {
 }
 
 .about p {
-    font-family: "Roboto", sans-serif;
+    font-family: var(--roboto);
     margin-bottom: 40px;
-    color: #777777;
+    color: var(--p-color);
 }
 
 @media screen and (max-width: 1180px) {
