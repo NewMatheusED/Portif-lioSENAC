@@ -6,13 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="icon.ico" type="image/x-icon">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>Portifólio Digital</title>
 </head>
 <body>
     <section class="home">
         <div class="container">
             <div class="profile-box">
-                <div class="img">
+                <div data-aos="fade-right" class="img">
                     <img src="Perfil.png" alt="">
                 </div>
                 <div class="description">
@@ -21,14 +22,14 @@
                     <h3>Junior Web Designer/Developer</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus numquam praesentium alias cupiditate quia, vero non sunt totam inventore voluptas doloribus maiores perspiciatis quae ea sed quis id ex incidunt.</p>
                     <ul>
-                        <li><img src="Calendário.png" alt=""> <p>08 Novembro, 2005</p></li>
-                        <li><img src="Email.png" alt=""><p>matheus081105@gmail.com</p></li>
-                        <li><img src="Casa.png" alt=""><p>São Paulo, SP</p></li>
+                        <li data-aos="fade-right"><img src="Calendário.png" alt=""> <p>08 Novembro, 2005</p></li>
+                        <li data-aos="fade-right" data-aos-delay="200"><img src="Email.png" alt=""><p>matheus081105@gmail.com</p></li>
+                        <li data-aos="fade-right" data-aos-delay="400"><img src="Casa.png" alt=""><p>São Paulo, SP</p></li>
                     </ul>
                     <div class="social">
-                        <a href="https://github.com/NewMatheusED" target="_blank"><div class="social-single"><img src="github.png" alt=""></div></a>
-                        <a href="https://codepen.io/NewMatheusED" target="_blank"><div class="social-single"><img src="codepen.jpg" alt=""></div></a>
-                        <a href="https://www.instagram.com/math_edu_gomes/" target="_blank"><div class="social-single"><img src="insta.png" alt=""></div></a>
+                        <a data-aos="fade-up" data-aos-offset="0" href="https://github.com/NewMatheusED" target="_blank"><div class="social-single"><img src="github.png" alt=""></div></a>
+                        <a data-aos="fade-up" data-aos-offset="0" data-aos-delay="200" href="https://codepen.io/NewMatheusED" target="_blank"><div class="social-single"><img src="codepen.jpg" alt=""></div></a>
+                        <a data-aos="fade-up" data-aos-offset="0" data-aos-delay="400" href="https://www.instagram.com/math_edu_gomes/" target="_blank"><div class="social-single"><img src="insta.png" alt=""></div></a>
                     </div>
                 </div>
             </div>
@@ -41,5 +42,9 @@
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi nostrum sit possimus? Laudantium adipisci aut labore? Possimus veniam, rerum omnis sunt debitis ipsum expedita corrupti dolorem blanditiis labore aspernatur illo. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro assumenda recusandae similique omnis, iste quidem ratione illum, facilis minima soluta aliquid? Libero eum modi repudiandae ad eligendi ex veniam sint. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Esse, minus beatae, repellendus quidem vitae consequuntur, aut accusantium quis corporis aperiam illo quasi laboriosam quibusdam temporibus quaerat explicabo debitis distinctio veritatis.</p>
         </div>
     </section>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init()
+</script>
 </body>
 </html>
