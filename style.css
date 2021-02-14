@@ -171,6 +171,11 @@ html, body {
     margin-top: -20px;
 }
 
+.about video {
+    width: 50%;
+    max-height: 100%;
+}
+
 .box {
     width: auto;
     height: auto;
@@ -206,6 +211,18 @@ html, body {
     .about {
         padding: 650px 2% 0 2%;
 
+    }
+}
+
+@media screen and (max-width: 1044px) {
+    .about video {
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .about video {
+        width: 100%;
     }
 }
 
