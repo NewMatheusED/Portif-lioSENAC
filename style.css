@@ -13,6 +13,8 @@ html, body {
     --text-color: #222222;
     --p-color: #777777;
     --roboto: "Roboto", sans-serif;
+    --size: 16px;
+    --gradient: linear-gradient(to right,#776EFF, #88F3FF);
 }
 
 .container {
@@ -24,7 +26,7 @@ html, body {
 
 .home {
     height: 550px;
-    background-image: linear-gradient(to right,#776EFF, #88F3FF);
+    background-image: var(--gradient);
 }
 
 .profile-box {
@@ -122,7 +124,7 @@ html, body {
 }
 
 .social-single:hover {
-    background-image: linear-gradient(to right,#776EFF, #88F3FF);
+    background-image: var(--gradient)
 }
 
 .about {
@@ -146,6 +148,27 @@ html, body {
     font-family: var(--roboto);
     margin-bottom: 40px;
     color: var(--p-color);
+    font-size: var(--size);
+}
+
+.about ol li {
+    list-style: none;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: var(--roboto);
+    text-transform: uppercase;
+    color: var(--text-color);
+    background-image: linear-gradient(to right, #776EFF, white )
+}
+
+.about ol li p {
+    font-family: var(--roboto);
+    margin-left: 40px;
+    color: var(--p-color);
+}
+
+.about audio {
+    margin-top: -20px;
 }
 
 @media screen and (max-width: 1180px) {
