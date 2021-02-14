@@ -158,7 +158,7 @@ html, body {
     font-family: var(--roboto);
     text-transform: uppercase;
     color: var(--text-color);
-    background-image: linear-gradient(to right, #776EFF, white )
+    /* background-image: linear-gradient(to right, #776EFF, white ) */
 }
 
 .about ol li p {
@@ -169,6 +169,15 @@ html, body {
 
 .about audio {
     margin-top: -20px;
+}
+
+.box {
+    width: auto;
+    height: auto;
+    box-shadow: 18px 28px 107px -44px rgba(0,0,0,0.75);
+    padding: 5px;
+    border-radius: 10px;
+    margin-bottom: 50px;
 }
 
 @media screen and (max-width: 1180px) {
