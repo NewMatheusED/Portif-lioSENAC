@@ -208,6 +208,11 @@ html, body {
     position: relative;
 }
 
+.box2 p {
+    font-family: var(--roboto);
+    color: var(--p-color);
+}
+
 @media screen and (max-width: 1180px) {
     .profile-box .img {
         width: 100%;
