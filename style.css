@@ -193,9 +193,9 @@ html, body {
 }
 
 .home2 {
-    height: 300px;
+    height: auto;
     background-image: var(--gradient);
-    padding: 100px;
+    padding: 50px;
 }
 
 .box2 {
