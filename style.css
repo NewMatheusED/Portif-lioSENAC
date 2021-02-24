@@ -63,7 +63,6 @@ html, body {
     font-weight: normal;
     margin-bottom: 20px;
     color: var(--text-color);
-
 }
 
 .description h1 {
@@ -86,12 +85,14 @@ html, body {
     font-family: var(--roboto);
     max-width: 540px;
     color: var(--p-color);
-    margin-bottom: 40px;
+    margin: 0 0 40px 30px;
+    text-align: left;
 }
 
 .description ul {
     list-style-type: none;
     display: inline-block;
+    margin-left: 25px;
 }
 
 .description ul li {
@@ -234,6 +235,15 @@ html, body {
 
     .description {
         max-width: 550px;
+    }
+
+    .description p {
+        text-align: center;
+        margin: 0 0 40px 0;
+    }
+
+    .description ul {
+        margin-left: 0;
     }
 
     .about {
